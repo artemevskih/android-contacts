@@ -4,5 +4,5 @@ public interface ListDiffInterface<T> {
     boolean theSameAs(T t);
 
     @Override
-    boolean equals(Object object);
+    boolean equals(Object o);
 }
